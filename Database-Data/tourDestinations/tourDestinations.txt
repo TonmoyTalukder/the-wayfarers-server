@@ -1,0 +1,62 @@
+[
+  {
+    "id": "615a0077b8f16655b0afa811",
+    "destination": "Chichen Itza All-Inclusive, Tequila tasting, Cenote Swim, Buffet & Valladolid",
+    "photoURL":"https://i.ibb.co/hFC8CVX/Cancun-Mexico-Tour.jpg",
+    "location":"🌍 Cancun, Mexico"
+    "rating":"4.5",
+    "travelFare":"120",
+    "description": "Journey to Mexico's Yucatán Peninsula to visit the Mayan ruins of Chichen Itza on this full-day excursion that includes easy hotel pickup and drop-off. Along with seeing El Castillo and learning how this pre-Columbian city played an important role in the Mayan civilization, visit the colonial town of Valladolid, stop at a cenote for a quick swim, and enjoy a buffet lunch.",
+    "explore":"Chichen Itza day trip with cenote swim, Enjoy a guided tour of the colonial town of Valladolid, Buffet lunch included & Hassle-free pickup and drop-off from a central meeting point."
+  },
+{
+    "id": "615a0077b8f16655b0afa812",
+    "destination": "Eiffel Tower Skip the Line and Small Group Tour with Summit Access by elevator",
+    "photoURL": "https://i.ibb.co/gJKmbZn/Paris-Tour.jpg",
+    "location": "🌍 Paris, France",
+    "rating": "4.3",
+    "travelFare": "225",
+    "description": "Breeze past the crowds outside the Eiffel Tower with this skip-the-line pass and 1.5-hour tour. In the company of your local guide, you'll gain priority access to the tower's second level. Delve into the history of one of the world's most famous monuments and soak up the exhibits and maps on display. Then bid adieu to your guide and head to the tower's summit for stellar views of the City of Lights. Toast your travels with a glass of bubbly from the Champagne bar (own expense).",
+    "explore": "Skip-the-line access to the Eiffel Tower, Guided 1.5-hour tour of the 2nd Floor, After the tour, continue to the summit on your own & Small group ensures personalized attention."
+  },
+{
+    "id": "615a0077b8f16655b0afa813",
+    "destination": "Las Vegas Super Saver: Madame Tussauds with Gondola Boat Ride",
+    "photoURL":"https://i.ibb.co/CnjP4JL/Las-Vegas-Tour.jpg",
+    "location":"🌍 Las Vegas, United States",
+    "rating":"4.7",
+    "travelFare":"420",
+    "description": "Visit Madame Tussauds Las Vegas and journey down the Grand Canal on an outdoor gondola ride when you purchase this attraction package. Then dine at Buddy V's Ristorante located on the Venetian Hotel and Casino (if Trio Package selected). Choose to enjoy all the activities consecutively on one day, or spread them out over the course of your stay in Sin City.",
+    "explore": "Visit the top attractions in Las Vegas at your leisure, Cruise the Grand Canal on an outdoor gondola ride, Receive admission to Madame Tussauds Las Vegas & Upgrade to enjoy lunch or dinner at Buddy V's Ristorante on the Trio Package."
+  },
+{
+    "id": "615a0077b8f16655b0afa814",
+    "destination": "Hot Air Balloon Ride Over Toledo or Segovia with Optional Transport from Madrid",
+    "photoURL":"https://i.ibb.co/pb2rFLt/Segovia-Spain-Tour.jpg",
+    "location":"🌍 Segovia, Spain",
+    "rating":"4.2",
+    "travelFare":"149",
+    "description": "Rise to exhilarating elevations over the medieval myriad of Toledo or Segovia on a hot-air balloon ride from Madrid. Select the city you want to see from above then rise to dizzying heights and enjoy birds-eye views of Toledo’s charming Old Town and Segovia’s ancient aqueduct.Touch down and pamper your palate with a Spanish brunch featuring cava and cured meats. Bring home a flight certificate and after a few days enjoy the photographs and video that immortalize your magical memories and upgrade to enjoy the convenience of round-trip transportation from your Madrid hotel.",
+    "explore": "Enjoy incredible bird’s-eye views of Toledo Old Town or Segovia Cathedral, Enjoy a typical Spanish brunch and glass of cava after your hot-air balloon flight, Take home a souvenir photo, video and flight certificate & Round-trip transport from Madrid included, if option selected."
+  },
+{
+    "id": "615a0077b8f16655b0afa815",
+    "destination": "Warner Bros. Studio: The Making of Harry Potter with Luxury Round-Trip Transport from London",
+    "photoURL":"https://i.ibb.co/fvYqMbb/Warner-Bros-Studio-Tour.jpg",
+    "location":"Greater London, United Kingdom",
+    "rating":"4.9",
+    "travelFare":"249",
+    "description": "Immerse yourself in the magic and mystery of Harry Potter™ with a ful-day behind-the-scenes experience at Warner Bros. Studio Tour London - the Making of Harry Potter. Enjoy round-trip transportation by luxury coach from London Victoria, and spend roughly four hours exploring the spellbinding film sets independently. See the Gothic grandeur of the Ministry of Magic, walk Diagon Alley, snap photos at iconic locations such as Platform 9 ¾ and the Hogwarts Express, and admire intricate costumes and props used in the movies.",
+    "explore": "Admission and stay at Warner Bros. Studio Tour London - The Making of Harry Potter, Explore sets like Dumbledore’s office, Diagon Alley and the Ministry of Magic, Visit Platform 9 ¾ and get up close to the original Hogwarts Express, See the costumes and props that were used in several films like Harry Potter and the Deathly Hallows & Relax with round-trip transport by luxury coach and included free Wi-fi."
+  },
+{
+    "id": "615a0077b8f16655b0afa816",
+    "destination": "Small Group Northern Lights Chase from Tromso",
+    "photoURL":"https://i.ibb.co/Gp8Fv7b/Tromso-Norway-Tour.jpg",
+    "location":"Tromso, Norway",
+    "rating":"5",
+    "travelFare":"520",
+    "description": "Chase the Aurora Borealis, aka, 'The Northern Lights,' through Norway's Arctic skies on this small-group adventure from Tromso. Head outside of the city, past stunning mountains and fjords to find the lights―sometimes traveling all the way to the Swedish and Finnish borders alongside guides ranging from professional tour guides to local aurora hunters. While sightings are never guaranteed exquisite natural scenery is always part of the excursion―as are a complimentary dinner, snacks, and beverages. Get hunting!",
+    "explore": "Skip-the-line access to the Eiffel Tower, Guided 1.5-hour tour of the 2nd Floor, After the tour, continue to the summit on your own & Small group ensures personalized attention"
+  }
+]
