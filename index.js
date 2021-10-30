@@ -39,6 +39,16 @@ async function run() {
         res.send(tourDestinations);
     });
 
+    //    GET Single Travel Description
+    app.get('/tour-destinations/:id', async(req, res) =>{
+      const id = req.params.id;
+      console.log('Getting the service id: ', id)
+      const query = {_id: ObjectId(id)};
+      const service = await tourDestinationCollection.findOne(query);
+      console.log(service);
+      res.json(service);
+    })
+
     } finally {
     //   await client.close();
     };
