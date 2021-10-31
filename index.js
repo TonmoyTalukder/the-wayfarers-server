@@ -51,6 +51,15 @@ async function run() {
       res.json(service);
     })
 
+    app.get('/delete-travel/:id', async(req, res) =>{
+      const idD = req.params.id;
+      console.log('Getting the service id: ', idD)
+      const queryD = {_id: ObjectId(idD)};
+      const serviceD = await tourDestinationCollection.findOne(queryD);
+      console.log(serviceD);
+      res.json(serviceD);
+    })
+
     // GET User Booking
     app.get('/booking/:id', async (req, res) => {
     const id = req.params.id;
