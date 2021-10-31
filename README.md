@@ -7,6 +7,10 @@ _Your trust on a safe travel..._
 **<a href="https://tonmoy-talukder.netlify.app/">Tonmoy Talukder</a>** </br>
 _CS Student, AUST, Dhaka 1208_
 
+## Project Link:
+
+<a href="https://the-wayfarers.web.app/">Browse Here</a>
+
 ## The Wayfarers Description:
 
 > - The Wayfarers is the safest travel planner right now in the world!
