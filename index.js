@@ -31,6 +31,8 @@ async function run() {
 
       const database = client.db("theWayfarers");
       const tourDestinationCollection = database.collection("tourDestinations");
+      const bookingCollection = database.collection('booking');
+
 
     //   GET Tour Destinations API
     app.get('/tour-destinations', async(req, res) =>{
@@ -47,6 +49,78 @@ async function run() {
       const service = await tourDestinationCollection.findOne(query);
       console.log(service);
       res.json(service);
+    })
+
+    // GET User Booking
+    app.get('/booking/:id', async (req, res) => {
+    const id = req.params.id;
+    const query = { _id: ObjectId(id) };
+    const data = await bookingCollection.findOne(query);
+    res.send(data);
+    })
+    app.get('/booking', async (req, res) => {
+        const cursor=bookingCollection.find({});
+        const bookings=await cursor.toArray();
+        res.json(bookings)
+    })
+
+    // post
+
+    app.post('/booking', async (req, res) => {
+        const booking = req.body;
+        const result = await bookingCollection.insertOne(booking);
+        res.json(result);
+        res.send(result);
+    })
+
+    app.post('/tour-destinations', async (req, res) => {
+      const newTourDestination = req.body;
+      const result = await tourDestinationCollection.insertOne(newTourDestination);
+      console.log('got new user', req.body);
+      console.log('added user', result);
+      res.json(result);
+  });
+
+
+    //UPDATE API
+    app.put('/booking/:id', async (req, res) => {
+      const id = req.params.id;
+      const updatedbooking = req.body;
+      const filter = { _id: ObjectId(id) };
+      const options = { upsert: true };
+      const updateDoc = {
+          $set: {
+              status:updatedbooking.status
+          },
+      };
+      const result = await bookingCollection.updateOne(filter, updateDoc, options)
+      console.log(result)
+      res.json(result)
+    })
+
+    // DELETE API
+    app.delete('/booking/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+
+      console.log(query);
+      const result = await bookingCollection.deleteOne(query);
+
+      console.log('deleting user with id ', result);
+
+      res.json(result);
+    })
+
+    app.delete('/managebookings/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+
+      console.log(query);
+      const result = await bookingCollection.deleteOne(query);
+
+      console.log('deleting user with id ', result);
+
+      res.json(result);
     })
 
     } finally {
