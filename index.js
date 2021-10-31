@@ -118,7 +118,19 @@ async function run() {
       console.log(query);
       const result = await bookingCollection.deleteOne(query);
 
-      console.log('deleting user with id ', result);
+      console.log('deleting booking with id ', result);
+
+      res.json(result);
+    })
+
+    app.delete('/managebookings/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+
+      console.log(query);
+      const result = await tourDestinationCollection.deleteOne(query);
+
+      console.log('deleting destination with id ', result);
 
       res.json(result);
     })
